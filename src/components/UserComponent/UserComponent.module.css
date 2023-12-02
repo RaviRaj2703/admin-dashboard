@@ -1,0 +1,58 @@
+.icons {
+  color: rgb(228, 83, 114);
+}
+
+.icons * {
+  padding: 10px;
+  cursor: pointer;
+}
+.dlt{
+  color: red;
+  margin-left: 5px;
+}
+.readOnly {
+  border: none;
+  width: 90%;
+  text-overflow: ellipsis;
+}
+
+.selected {
+  background: hsl(0, 0%, 90%);
+}
+
+.selected input {
+  background: hsl(0, 0%, 90%);
+}
+
+label {
+  display: inline-block;
+  width: 100%;
+}
+
+/* UserComponent.module.css */
+
+.iconButton {
+  padding: 8px 12px;
+  margin-right: 8px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+}
+
+.editButton {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.deleteButton {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.saveButton {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
